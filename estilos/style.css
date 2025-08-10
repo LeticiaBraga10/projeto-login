@@ -74,6 +74,12 @@ form > div.campo{
     display: block;
     border-radius: 9px;
     margin: 7px 0px;
+    
+}
+
+div.campo{position: relative;/*Adicionei*/
+    display: flex;
+    align-items: center;
 }
 
 div.campo > label {
@@ -86,17 +92,26 @@ div.campo > span{
     font-size: 2em;
     width: 40px;
     padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
 }
 
 div.campo > input{
     background-color: rgba(229, 255, 229, 0.847);
     font-size: 1em;
-    /* width: calc(100% - 44px); */
+    width: calc(100% - 44px);
     height: 100%;
     border: 0px;
     border-radius: 9px;
     padding: 11px;
-    transform: translate(44px,-42px);
+    margin-left: 44px;
+    margin-top: -44px;
+    flex: 1;
+    margin: 0;
+    margin-left: 46px;/*ESSA FOI A FORMA QUE ENCONTREI PARA AJEITAR O PROBLEMA*/
+    /* transform: translate(44px,-42px); */
 }
 
 div.campo > input:focus-within{
