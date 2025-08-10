@@ -41,7 +41,7 @@ section#login{
 
     transition: width .3s, height .3s ;
     transition-timing-function: ease;
-      
+    transform: translate(-50%, -50%);  
 }
 
 section#login > div#imagem{
@@ -91,7 +91,7 @@ div.campo > span{
 div.campo > input{
     background-color: rgba(229, 255, 229, 0.847);
     font-size: 1em;
-    width: calc(100% - 44px);
+    /* width: calc(100% - 44px); */
     height: 100%;
     border: 0px;
     border-radius: 9px;
