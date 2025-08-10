@@ -160,3 +160,17 @@ form > a.botao > span{
     font-size: 1em;
     color: black;
 }
+
+/* PARA RESOLVER UM BUG NO input,que estava deslocado:
+     adicionei:
+     flex: 1;
+    margin: 0;
+    margin-left: 46px
+    margin-left: 44px;
+    margin-top: -44px;
+
+    div.campo{position: relative;
+    display: flex;
+    align-items: center;
+    */
+    
